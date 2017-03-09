@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "Dashline.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    Dashline *verticalDashLine = [[Dashline alloc] initWithFrame:CGRectMake(375/2, 75+15, 0.5, 100) withLineLength:6 withLineSpacing:3 withLineColor:[UIColor redColor]];
+    [self.view addSubview:verticalDashLine];
 }
 
 

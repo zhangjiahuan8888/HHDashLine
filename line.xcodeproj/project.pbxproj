@@ -13,6 +13,7 @@
 		50B289E01E5D30E3008CC847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B289DE1E5D30E3008CC847 /* Main.storyboard */; };
 		50B289E21E5D30E3008CC847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50B289E11E5D30E3008CC847 /* Assets.xcassets */; };
 		50B289E51E5D30E3008CC847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50B289E31E5D30E3008CC847 /* LaunchScreen.storyboard */; };
+		50B289F11E5D310F008CC847 /* Dashline.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B289F01E5D310F008CC847 /* Dashline.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		50B289E11E5D30E3008CC847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50B289E41E5D30E3008CC847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50B289E61E5D30E3008CC847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50B289EF1E5D310F008CC847 /* Dashline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dashline.h; sourceTree = "<group>"; };
+		50B289F01E5D310F008CC847 /* Dashline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dashline.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		50B289C91E5D30E3008CC847 = {
 			isa = PBXGroup;
 			children = (
+				50B289EF1E5D310F008CC847 /* Dashline.h */,
+				50B289F01E5D310F008CC847 /* Dashline.m */,
 				50B289D41E5D30E3008CC847 /* line */,
 				50B289D31E5D30E3008CC847 /* Products */,
 			);
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50B289DD1E5D30E3008CC847 /* ViewController.m in Sources */,
+				50B289F11E5D310F008CC847 /* Dashline.m in Sources */,
 				50B289DA1E5D30E3008CC847 /* AppDelegate.m in Sources */,
 				50B289D71E5D30E3008CC847 /* main.m in Sources */,
 			);
